@@ -52,3 +52,5 @@ end
 group :production do
   gem 'rails_12factor', '0.0.2'
 end
+#use bcrypt-ruby to transform the password to make the password hash
+gem 'bcrypt-ruby', '3.1.2'
