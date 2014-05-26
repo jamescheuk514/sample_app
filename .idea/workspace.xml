@@ -2,23 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e5b6d4df-d252-446b-815f-aedc2c8af2a0" name="Default" comment="finised static_pages&#10;">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/shared/_error_messages.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/shared/_flash_messages.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/factories.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/users/show.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.generators" afterPath="$PROJECT_DIR$/.idea/.generators" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.rakeTasks" afterPath="$PROJECT_DIR$/.idea/.rakeTasks" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/users/new.html.erb" afterPath="$PROJECT_DIR$/app/views/users/new.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sample_app.iml" afterPath="$PROJECT_DIR$/.idea/sample_app.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/environments/test.rb" afterPath="$PROJECT_DIR$/config/environments/test.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/requests/user_pages_spec.rb" afterPath="$PROJECT_DIR$/spec/requests/user_pages_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/users_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/users_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/helpers/users_helper.rb" afterPath="$PROJECT_DIR$/app/helpers/users_helper.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/environments/production.rb" afterPath="$PROJECT_DIR$/config/environments/production.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="sample_app.iws" />
@@ -195,6 +179,7 @@
         <option value="$PROJECT_DIR$/app/views/shared/_flash_messages.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/users_controller.rb" />
         <option value="$PROJECT_DIR$/app/helpers/users_helper.rb" />
+        <option value="$PROJECT_DIR$/config/environments/production.rb" />
       </list>
     </option>
   </component>
@@ -450,7 +435,7 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
-    <property name="SearchEverywhereHistoryKey" value="gravatar_for&#9;null&#9;null&#10;show.h&#9;FILE&#9;file:///home/james/ruby/projects/sample_app/app/views/users/show.html.erb&#10;cu&#9;FILE&#9;file:///home/james/ruby/projects/sample_app/app/assets/stylesheets/custom.css.scss&#10;app&#9;FILE&#9;file:///home/james/ruby/projects/sample_app/app/views/layouts/application.html.erb&#10;show.html.erb&#9;FILE&#9;file:///home/james/ruby/projects/sample_app/app/views/users/show.html.erb&#10;test.rb&#9;FILE&#9;file:///home/james/ruby/projects/sample_app/config/environments/test.rb&#10;_variable&#9;FILE&#9;file:///home/james/ruby/projects/sample_app/vendor/assets/stylesheets/bootstrap/_variables.scss&#10;cus&#9;FILE&#9;file:///home/james/ruby/projects/sample_app/app/assets/stylesheets/custom.css.scss&#10;user page&#9;FILE&#9;file:///home/james/ruby/projects/sample_app/spec/requests/user_pages_spec.rb&#10;use&#9;FILE&#9;file:///home/james/ruby/projects/sample_app/app/controllers/users_controller.rb&#10;cust&#9;FILE&#9;file:///home/james/ruby/projects/sample_app/app/assets/stylesheets/custom.css.scss&#10;gemfile&#9;FILE&#9;file:///home/james/ruby/projects/sample_app/Gemfile&#10;terminal&#9;ACTION&#9;ActivateTerminalToolWindow&#10;user conr&#9;FILE&#9;file:///home/james/ruby/projects/sample_app/app/controllers/users_controller.rb&#10;routes&#9;FILE&#9;file:///home/james/ruby/projects/sample_app/config/routes.rb&#10;application.html.erb&#9;FILE&#9;file:///home/james/ruby/projects/sample_app/app/views/layouts/application.html.erb&#10;user_controller&#9;FILE&#9;file:///home/james/ruby/projects/sample_app/app/controllers/users_controller.rb&#10;term&#9;ACTION&#9;ActivateTerminalToolWindow&#10;&#9;FILE&#9;file:///home/james/ruby/projects/sample_app/db/migrate/20140526051342_create_users.rb&#10;user.rb&#9;FILE&#9;file:///home/james/ruby/projects/sample_app/app/models/user.rb&#10;sc&#9;FILE&#9;file:///home/james/ruby/projects/sample_app/db/schema.rb&#10;ter&#9;ACTION&#9;ActivateTerminalToolWindow&#10;add_index_&#9;FILE&#9;file:///home/james/ruby/projects/sample_app/db/migrate/20140526065635_add_index_tousers_email.rb&#10;dat&#9;ACTION&#9;ActivateDatabaseToolWindow&#10;hom&#9;FILE&#9;file:///home/james/ruby/projects/sample_app/app/views/static_pages/home.html.erb&#10;navbar&#9;FILE&#9;file:///home/james/ruby/projects/sample_app/app/views/layouts/_navbar.html.erb&#10;controller&#9;FILE&#9;file:///home/james/ruby/projects/sample_app/app/controllers/static_pages_controller.rb&#10;_footer&#9;FILE&#9;file:///home/james/ruby/projects/sample_app/app/views/layouts/_footer.html.erb&#10;stat&#9;FILE&#9;file:///home/james/ruby/projects/sample_app/spec/requests/static_pages_spec.rb&#10;application.rb&#9;FILE&#9;file:///home/james/ruby/projects/sample_app/config/application.rb&#10;.rspec&#9;FILE&#9;file:///home/james/ruby/projects/sample_app/.rspec&#10;navbar.html.erb&#9;FILE&#9;file:///home/james/ruby/projects/sample_app/app/views/layouts/_navbar.html.erb&#10;appli&#9;FILE&#9;file:///home/james/ruby/projects/sample_app/app/views/layouts/application.html.erb&#10;applic&#9;FILE&#9;file:///home/james/ruby/projects/sample_app/app/assets/stylesheets/application.css.scss&#10;home&#9;FILE&#9;file:///home/james/ruby/projects/sample_app/app/views/static_pages/home.html.erb&#10;application.&#9;FILE&#9;file:///home/james/ruby/projects/sample_app/app/helpers/application_helper.rb&#10;git&#9;FILE&#9;file:///home/james/ruby/projects/sample_app/.gitignore&#10;todo&#9;ACTION&#9;ActivateTODOToolWindow&#10;application.htm.&#9;FILE&#9;file:///home/james/ruby/projects/sample_app/app/views/layouts/application.html.erb&#10;st&#9;FILE&#9;file:///home/james/ruby/projects/sample_app/spec/requests/static_pages_spec.rb&#10;contac&#9;FILE&#9;file:///home/james/ruby/projects/sample_app/app/views/static_pages/contact.html.erb&#10;help.html.erb&#9;FILE&#9;file:///home/james/ruby/projects/sample_app/app/views/static_pages/help.html.erb&#10;home.html.erb&#9;FILE&#9;file:///home/james/ruby/projects/sample_app/app/views/static_pages/home.html.erb&#10;staticpage_spe&#9;FILE&#9;file:///home/james/ruby/projects/sample_app/spec/requests/static_pages_spec.rb&#10;route&#9;ACTION&#9;rake:routes" />
+    <property name="SearchEverywhereHistoryKey" value="test&#9;FILE&#9;file:///home/james/ruby/projects/sample_app/config/environments/test.rb&#10;prod&#9;FILE&#9;file:///home/james/ruby/projects/sample_app/config/environments/production.rb&#10;gravatar_for&#9;null&#9;null&#10;show.h&#9;FILE&#9;file:///home/james/ruby/projects/sample_app/app/views/users/show.html.erb&#10;cu&#9;FILE&#9;file:///home/james/ruby/projects/sample_app/app/assets/stylesheets/custom.css.scss&#10;app&#9;FILE&#9;file:///home/james/ruby/projects/sample_app/app/views/layouts/application.html.erb&#10;show.html.erb&#9;FILE&#9;file:///home/james/ruby/projects/sample_app/app/views/users/show.html.erb&#10;test.rb&#9;FILE&#9;file:///home/james/ruby/projects/sample_app/config/environments/test.rb&#10;_variable&#9;FILE&#9;file:///home/james/ruby/projects/sample_app/vendor/assets/stylesheets/bootstrap/_variables.scss&#10;cus&#9;FILE&#9;file:///home/james/ruby/projects/sample_app/app/assets/stylesheets/custom.css.scss&#10;user page&#9;FILE&#9;file:///home/james/ruby/projects/sample_app/spec/requests/user_pages_spec.rb&#10;use&#9;FILE&#9;file:///home/james/ruby/projects/sample_app/app/controllers/users_controller.rb&#10;cust&#9;FILE&#9;file:///home/james/ruby/projects/sample_app/app/assets/stylesheets/custom.css.scss&#10;gemfile&#9;FILE&#9;file:///home/james/ruby/projects/sample_app/Gemfile&#10;terminal&#9;ACTION&#9;ActivateTerminalToolWindow&#10;user conr&#9;FILE&#9;file:///home/james/ruby/projects/sample_app/app/controllers/users_controller.rb&#10;routes&#9;FILE&#9;file:///home/james/ruby/projects/sample_app/config/routes.rb&#10;application.html.erb&#9;FILE&#9;file:///home/james/ruby/projects/sample_app/app/views/layouts/application.html.erb&#10;user_controller&#9;FILE&#9;file:///home/james/ruby/projects/sample_app/app/controllers/users_controller.rb&#10;term&#9;ACTION&#9;ActivateTerminalToolWindow&#10;&#9;FILE&#9;file:///home/james/ruby/projects/sample_app/db/migrate/20140526051342_create_users.rb&#10;user.rb&#9;FILE&#9;file:///home/james/ruby/projects/sample_app/app/models/user.rb&#10;sc&#9;FILE&#9;file:///home/james/ruby/projects/sample_app/db/schema.rb&#10;ter&#9;ACTION&#9;ActivateTerminalToolWindow&#10;add_index_&#9;FILE&#9;file:///home/james/ruby/projects/sample_app/db/migrate/20140526065635_add_index_tousers_email.rb&#10;dat&#9;ACTION&#9;ActivateDatabaseToolWindow&#10;hom&#9;FILE&#9;file:///home/james/ruby/projects/sample_app/app/views/static_pages/home.html.erb&#10;navbar&#9;FILE&#9;file:///home/james/ruby/projects/sample_app/app/views/layouts/_navbar.html.erb&#10;controller&#9;FILE&#9;file:///home/james/ruby/projects/sample_app/app/controllers/static_pages_controller.rb&#10;_footer&#9;FILE&#9;file:///home/james/ruby/projects/sample_app/app/views/layouts/_footer.html.erb&#10;stat&#9;FILE&#9;file:///home/james/ruby/projects/sample_app/spec/requests/static_pages_spec.rb&#10;application.rb&#9;FILE&#9;file:///home/james/ruby/projects/sample_app/config/application.rb&#10;.rspec&#9;FILE&#9;file:///home/james/ruby/projects/sample_app/.rspec&#10;navbar.html.erb&#9;FILE&#9;file:///home/james/ruby/projects/sample_app/app/views/layouts/_navbar.html.erb&#10;appli&#9;FILE&#9;file:///home/james/ruby/projects/sample_app/app/views/layouts/application.html.erb&#10;applic&#9;FILE&#9;file:///home/james/ruby/projects/sample_app/app/assets/stylesheets/application.css.scss&#10;home&#9;FILE&#9;file:///home/james/ruby/projects/sample_app/app/views/static_pages/home.html.erb&#10;application.&#9;FILE&#9;file:///home/james/ruby/projects/sample_app/app/helpers/application_helper.rb&#10;git&#9;FILE&#9;file:///home/james/ruby/projects/sample_app/.gitignore&#10;todo&#9;ACTION&#9;ActivateTODOToolWindow&#10;application.htm.&#9;FILE&#9;file:///home/james/ruby/projects/sample_app/app/views/layouts/application.html.erb&#10;st&#9;FILE&#9;file:///home/james/ruby/projects/sample_app/spec/requests/static_pages_spec.rb&#10;contac&#9;FILE&#9;file:///home/james/ruby/projects/sample_app/app/views/static_pages/contact.html.erb&#10;help.html.erb&#9;FILE&#9;file:///home/james/ruby/projects/sample_app/app/views/static_pages/help.html.erb&#10;home.html.erb&#9;FILE&#9;file:///home/james/ruby/projects/sample_app/app/views/static_pages/home.html.erb&#10;staticpage_spe&#9;FILE&#9;file:///home/james/ruby/projects/sample_app/spec/requests/static_pages_spec.rb&#10;route&#9;ACTION&#9;rake:routes" />
     <property name="dynamic.classpath" value="false" />
     <property name="FullScreen" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
@@ -936,13 +921,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1602">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spec/spec_helper.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="900">
@@ -1294,14 +1272,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/environments/test.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.47572815" vertical-offset="246" max-vertical-offset="864">
-          <caret line="30" column="40" selection-start-line="30" selection-start-column="40" selection-end-line="30" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spec/requests/static_pages_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="666">
@@ -1378,6 +1348,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.3333333" vertical-offset="0" max-vertical-offset="288">
           <caret line="5" column="24" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/environments/test.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.815534" vertical-offset="0" max-vertical-offset="864">
+          <caret line="28" column="47" selection-start-line="28" selection-start-column="47" selection-end-line="28" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3656958" vertical-offset="530" max-vertical-offset="1602">
+          <caret line="42" column="2" selection-start-line="42" selection-start-column="2" selection-end-line="42" selection-end-column="2" />
           <folding />
         </state>
       </provider>
