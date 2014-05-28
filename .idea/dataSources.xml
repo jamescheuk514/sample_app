@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="DataSourceManagerImpl" format="xml" hash="267076830">
+  <component name="DataSourceManagerImpl" format="xml" hash="51688035">
     <data-source source="LOCAL" name="Rails sample_app: development" uuid="9c926be7-ab50-42e2-a070-2430148a3d07">
       <driver-ref>postgresql</driver-ref>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
@@ -15,8 +15,6 @@
       <driver-ref>postgresql</driver-ref>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>jdbc:postgresql:sample_app_test</jdbc-url>
-      <user-name>james</user-name>
-      <user-password>df9adf9adf9edf98</user-password>
       <schema-pattern>sample_app_test.*</schema-pattern>
       <default-schemas>sample_app_test.pg_catalog sample_app_test.public</default-schemas>
       <libraries />

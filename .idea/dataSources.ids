@@ -1538,8 +1538,10 @@
       <column name="created_at" sqlType="timestamp" precision="29" scale="6" nullable="true" jdbcType="93"/>
       <column name="updated_at" sqlType="timestamp" precision="29" scale="6" nullable="true" jdbcType="93"/>
       <column name="password_digest" sqlType="varchar" precision="255" scale="0" nullable="true" jdbcType="12"/>
+      <column name="remember_token" sqlType="varchar" precision="255" scale="0" nullable="true" jdbcType="12"/>
       <primary-key name="users_pkey" columns="id"/>
       <index name="index_users_on_email" unique="true" columns="email"/>
+      <index name="index_users_on_remember_token" unique="false" columns="remember_token"/>
     </table>
     <table name="users_id_seq" schema="public" catalog="sample_app_development" type="SEQUENCE">
       <column name="sequence_name" sqlType="name" precision="2147483647" scale="0" nullable="false" jdbcType="12"/>
