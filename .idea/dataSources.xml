@@ -5,8 +5,6 @@
       <driver-ref>postgresql</driver-ref>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>jdbc:postgresql:sample_app_development</jdbc-url>
-      <user-name>james</user-name>
-      <user-password>df9adf9adf9edf98</user-password>
       <schema-pattern>sample_app_development.pg_catalog sample_app_development.public</schema-pattern>
       <default-schemas>sample_app_development.pg_catalog sample_app_development.public</default-schemas>
       <libraries />

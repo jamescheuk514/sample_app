@@ -1,5 +1,5 @@
 require 'spec_helper'
-require 'minitest/autorun'
+
 describe 'Static pages' do
 	subject { page }
   let(:base_title) { 'Ruby on Rails Tutorial Sample App' }
