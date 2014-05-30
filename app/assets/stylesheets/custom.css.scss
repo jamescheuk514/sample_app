@@ -248,3 +248,12 @@ aside {
 .delete_content {
   float: right;
 }
+
+/* micropost jQuery countdown */
+
+.countdown {
+  display: inline;
+  margin-top: 0;
+  padding-left: 0;
+  color: $gray-light;
+}
