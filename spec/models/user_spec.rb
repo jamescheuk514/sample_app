@@ -14,8 +14,13 @@ describe User do
 	it { should respond_to(:password_confirmation) }
 	it { should respond_to(:authenticate) }
 	it { should respond_to(:remember_token) }
-	it { should be_valid }
+	it { should respond_to(:admin) }
+	it { should respond_to(:microposts) }
+  it { should respond_to(:feed)}
+
 	it { should_not be_admin }
+
+	it { should be_valid }
 
 	describe 'with admin attribute set to true' do
 		before do
@@ -117,5 +122,31 @@ describe User do
 	describe 'remember token' do
 		before { @user.save }
 		its(:remember_token) { should_not be_blank }
+	end
+
+	describe 'microposts associations' do
+		before { @user.save }
+		let!(:older_post) { FactoryGirl.create(:micropost, user: @user, created_at: 10.days.ago) }
+		let!(:newer_post) { FactoryGirl.create(:micropost, user: @user, created_at: 1.day.ago) }
+
+		it 'should be in order of created_at' do
+			expect(@user.microposts.to_a).to eq [newer_post, older_post]
+		end
+
+		it 'should destroy associated microposts' do
+			microposts = @user.microposts.to_a
+			@user.destroy
+			microposts.each do |micropost|
+				expect(Micropost.where(id: micropost.id)).to be_empty
+			end
+    end
+
+    describe 'status' do
+      let(:unfollowed_post) { FactoryGirl.create(:micropost, user: FactoryGirl.create(:user)) }
+
+      its(:feed) { should include(older_post) }
+      its(:feed) { should include(newer_post) }
+      its(:feed) { should_not include(unfollowed_post) }
+    end
 	end
 end

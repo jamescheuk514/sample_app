@@ -9,9 +9,10 @@
   <%= render partial: 'layouts/shim' %>
 </head>
 <body>
+<div class="container">
     <%= render partial: 'layouts/navbar' %>
 
-    <div class="container">
+    <div class="container-fluid">
     <%= render partial: 'shared/flash_messages' %>
 
 
@@ -22,6 +23,6 @@
     </div>
 
     <%= debug(params) if Rails.env.development? %>
-
+</div>
 </body>
 </html>

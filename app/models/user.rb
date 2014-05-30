@@ -1,4 +1,5 @@
 class User < ActiveRecord::Base
+	has_many :microposts, dependent: :destroy
 	has_secure_password
 	before_create :create_remember_token
 	before_save { self.email.downcase! }
@@ -18,7 +19,12 @@ class User < ActiveRecord::Base
 
 	def User.digest(token)
 		Digest::SHA1.hexdigest(token.to_s)
-	end
+  end
+
+
+  def feed
+    microposts
+  end
 
 
 	private

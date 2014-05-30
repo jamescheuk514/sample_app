@@ -24,6 +24,15 @@ module SessionsHelper
 		@current_user == user
 	end
 
+
+  def signed_in_user
+    unless signed_in?
+      flash[:warning] = 'Please sign in.'
+      store_location
+      redirect_to(signin_url)
+    end
+  end
+
 	def sign_out
 		current_user.update_attribute(:remember_token, User.digest(User.new_remember_token)) #replace a new hashed tokens in database
 		cookies.delete(:remember_token)
